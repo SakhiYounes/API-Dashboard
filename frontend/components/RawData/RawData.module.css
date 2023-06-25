@@ -1,0 +1,169 @@
+.tableContainer {
+  max-width: 100%;
+  overflow-x: auto;
+  }
+  
+  .table {
+    border-collapse: separate;
+    table-layout: fixed;
+    width: 100%;
+    word-wrap: break-word;
+    font-family: var(--font-primary);
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-spacing: 0 1px;
+  }
+  
+  .tableHead {
+    background-color: var(--primary-color);
+    color: #55506a;
+    font-weight: bold;
+  }
+
+  .tableHead tr:nth-child(2){
+    background-color: var(--sidebar-color);
+  }
+  
+  .table tbody {
+  background-color: #ffffff;
+  }
+  
+  .table th,
+  .table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  min-width: 100px;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+
+  .description {
+    max-width: 200px; /* Adjust the value based on your preference */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .tr:nth-child(even) {
+  background-color: #f4f4f4;
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+    }
+    
+  .table tbody tr:hover {
+  background-color: #e6f0ff;
+  }
+  
+  .buttonsWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  }
+  
+  .previousButton,
+  .nextButton {
+  background-color: var(--secondary-color);
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  }
+  
+  .previousButton:hover,
+  .nextButton:hover {
+  background-color: #9e1c24;
+  }
+  
+  .previousButton:disabled,
+  .nextButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  }
+  
+  .filterRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  }
+  
+  .filterRowSelect {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  }
+  
+  .custom_select {
+  position: relative;
+  display: inline-block;
+  }
+  
+  .custom_select select {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #e0e0e0;
+  appearance: none;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+.searchBar {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.searchBar:focus {
+  border-color: var(--secondary-color);
+}
+
+.checkBox{
+  transform: scale(1.5); /* increase checkbox size */
+  border-radius: 4px; /* add rounded corners */
+  border: 1px solid #ccc; /* add border */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1); /* add box-shadow */
+}
+
+.downloadButton {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.downloadButton:hover {
+  background-color: #0062cc;
+}

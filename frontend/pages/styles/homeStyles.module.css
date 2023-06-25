@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: var(--font-primary);
+}
+
+/*.sidebar {
+  position: fixed;  
+  width: 220px;
+  height: 100vh;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.12);
+}*/
+.main{
+  margin: 10px
+}
+
+
+
+
+.loading {
+  /* your styles */
+}
